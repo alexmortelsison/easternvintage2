@@ -15,7 +15,7 @@ export default function VideoPlayer() {
 
   return (
     <div className="relative inset-0" onClick={handleUnmute}>
-      <div className="bg-linear-to-b from-black/90 via-black/20 to-black/90 absolute inset-0"></div>
+      <div className="bg-linear-to-b from-black/90 via-black/40 to-black/90 absolute inset-0"></div>
       <div className="">
         <video
           ref={videoRef}
