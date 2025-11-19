@@ -32,7 +32,9 @@ export default function HomePage() {
               onClick={handleScrollToNext}
               aria-label="Scroll to next section"
             >
-              <AiOutlineArrowDown className="text-white/50 cursor-pointer hover:text-white transition-colors" />
+              <Link href={"/shop"}>
+                <AiOutlineArrowDown className="text-white/50 cursor-pointer hover:text-white transition-colors" />
+              </Link>
             </button>
           </div>
         </div>
