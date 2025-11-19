@@ -113,7 +113,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="relative snap-start flex items-center justify-center min-h-screen">
+      <section className="relative snap-start flex items-center justify-center min-h-screen overflow-hidden">
         <div className="bg-linear-to-b from-black/90 via-black/80 to-black/90 absolute inset-0"></div>
         <Image
           src={"/Screenshot 2025-11-17 202755.png"}
@@ -162,7 +162,7 @@ export default function HomePage() {
               <AiOutlineFacebook />
             </div>
           </div>
-          <div className="text-white/40 pt-24 pb-2">
+          <div className="text-white/40 pt-48 pb-2">
             <p>&copy;2025 Eastern Vintage. All rights reserved.</p>
           </div>
         </div>
