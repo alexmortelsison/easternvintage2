@@ -5,8 +5,11 @@ import { AiOutlineShopping } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-    <div className="absolute z-60 h-[60] w-screen items-center flex justify-center text-center text-white pt-20">
-      <div className="flex justify-between items-center space-x-46">
+    <div className="absolute z-60 h-[60] w-screen items-center flex justify-center text-center text-white pt-20 pr-24">
+      <div className="flex justify-center items-center space-x-8">
+        <div>
+          <Link href={"/"}>HOME</Link>
+        </div>
         <div>
           <Link href={"/shop"}>SHOP</Link>
         </div>
