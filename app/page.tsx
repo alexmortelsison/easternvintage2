@@ -6,9 +6,7 @@ import {
 } from "react-icons/ai";
 import VideoPlayer from "./components/VideoPlayer";
 import Link from "next/link";
-import VideoPlayer2 from "./components/VideoPlayer2";
 import Image from "next/image";
-import Footer from "./components/Footer";
 
 export default function HomePage() {
   const handleScrollToNext = () => {
@@ -41,7 +39,7 @@ export default function HomePage() {
       </section>
 
       <section className="relative snap-start flex items-center justify-center">
-        <div className="bg-linear-to-b from-black/90 via-black/40 to-black/90 absolute inset-0"></div>
+        <div className="bg-linear-to-b from-black/50 via-black/20 to-black/20 absolute inset-0"></div>
         <Image
           src={"/_DSC0023.jpg"}
           alt={""}
@@ -66,7 +64,7 @@ export default function HomePage() {
       </section>
 
       <section className="relative snap-start flex items-center justify-center">
-        <div className="bg-linear-to-b from-black/90 via-black/40 to-black/90 absolute inset-0"></div>
+        <div className="bg-linear-to-b from-black/50 via-black/20 to-black/20 absolute inset-0"></div>
         <Image
           src={"/_DSC0865.jpg"}
           alt={""}
@@ -91,7 +89,7 @@ export default function HomePage() {
       </section>
 
       <section className="relative snap-start flex items-center justify-center">
-        <div className="bg-linear-to-b from-black/90 via-black/40 to-black/90 absolute inset-0"></div>
+        <div className="bg-linear-to-b from-black/50 via-black/20 to-black/50 absolute inset-0"></div>
         <Image
           src={"/AdobeStock_335068813.jpeg"}
           alt={""}
