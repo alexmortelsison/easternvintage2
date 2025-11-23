@@ -16,9 +16,9 @@ export default function StoryPage() {
   };
 
   return (
-    <div className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth scrollbar-hide">
+    <div className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth scrollbar-hide bg-[#ebebeb]">
       <section className="relative snap-start flex items-center justify-center h-screen">
-        <div className="bg-linear-to-b from-black/30 via-black/20 to-black/20 absolute inset-0"></div>
+        <div className="bg-linear-to-b from-black/10 via-transparent to-black/20 absolute inset-0"></div>
         <div className="flex 4 justify-center space-x-32 z-50 max-w-7xl">
           <div className="flex space-x-2 items-center">
             <div className="bg-linear-to-b from-black/10 absolute inset-0"></div>
@@ -52,10 +52,10 @@ export default function StoryPage() {
       </section>
 
       <section className="relative snap-start flex items-center justify-center h-screen">
-        <div className="bg-linear-to-b from-black/60 via-black/20 to-black/20 absolute inset-0"></div>
+        <div className="bg-linear-to-b from-black/10 via-transparent to-black/20 absolute inset-0"></div>
         <div className="flex 4 justify-center space-x-16 z-50">
           <div className="flex space-x-2 items-center">
-            <div className="bg-linear-to-b from-black/10 absolute inset-0"></div>
+            <div className="bg-linear-to-b from-black/10 via-transparent absolute inset-0"></div>
             <Image
               src={"/borum.jpg"}
               alt={""}
@@ -67,8 +67,8 @@ export default function StoryPage() {
           <div className="z-50 flex justify-center items-center">
             <div className="max-w-[800]">
               <h1 className="text-5xl font-bold text-black/60">Borum</h1>
-              <div className="pt-8 flex justify-center items-center text-start">
-                <p className="text-black/50 text-sm">
+              <div className="pt-8 flex flex-col justify-center items-center text-start">
+                <p className="text-black/50 text-lg border-b pb-16 border-black/50">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don't look
@@ -83,13 +83,59 @@ export default function StoryPage() {
                   Lorem Ipsum is therefore always free from repetition, injected
                   humour, or non-characteristic words etc.
                 </p>
+                <p className="text-center pt-8 text-black/50 italic">
+                  "At Eastern Vintage, we don&apos;t just sell fashion—we curate
+                  living history."
+                </p>
+                <p className="text-black/50 pt-2 italic">- Borum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="relative snap-start flex items-center justify-center h-screen">
+        <div className="bg-linear-to-b from-black/10 via-transparent to-black/20 absolute inset-0"></div>
+        <div className="flex 4 justify-center space-x-16 z-50">
+          <div className="flex space-x-2 items-center">
+            <div className="bg-linear-to-b from-black/10 via-transparent absolute inset-0"></div>
+            <Image
+              src={"/borump.jpg"}
+              alt={""}
+              height={2000}
+              width={2000}
+              className="w-full h-screen object-cover"
+            />
+          </div>
+          <div className="z-50 flex justify-center items-center">
+            <div className="max-w-[800]">
+              <h1 className="text-5xl font-bold text-black/60">Bonasa</h1>
+              <div className="pt-8 flex flex-col justify-center items-center text-start">
+                <p className="text-black/50 text-lg border-b pb-16 border-black/50">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing hidden in the middle of text. All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with a handful of model sentence structures, to
+                  generate Lorem Ipsum which looks reasonable. The generated
+                  Lorem Ipsum is therefore always free from repetition, injected
+                  humour, or non-characteristic words etc.
+                </p>
+                <p className="text-center pt-8 text-black/50 italic">
+                  "It's about bridging the past with the present."
+                </p>
+                <p className="text-black/50 pt-2 italic">- Bonasa</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="relative snap-start flex items-center justify-center min-h-screen overflow-hidden">
+      <section className="relative snap-start flex items-center justify-center h-screen overflow-hidden">
         <div className="bg-linear-to-b from-black/90 via-black/80 to-black/90 absolute inset-0"></div>
         <Image
           src={"/Screenshot 2025-11-17 202755.png"}
@@ -99,7 +145,7 @@ export default function StoryPage() {
           className="object-cover h-[1000]"
         />
         <div className="absolute text-white/80 items-center justify-center text-center">
-          <div className="pt-16 flex flex-col justify-center items-center tracking-tight">
+          <div className="pt-52 flex flex-col justify-center items-center tracking-tight">
             <h1 className="text-3xl">
               Be First To Discover Our Latest Treasures
             </h1>

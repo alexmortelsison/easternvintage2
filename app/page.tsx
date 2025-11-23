@@ -113,7 +113,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="relative snap-start flex items-center justify-center min-h-screen overflow-hidden">
+      <section className="relative snap-start flex items-center justify-center h-screen overflow-hidden">
         <div className="bg-linear-to-b from-black/90 via-black/80 to-black/90 absolute inset-0"></div>
         <Image
           src={"/Screenshot 2025-11-17 202755.png"}
@@ -123,7 +123,7 @@ export default function HomePage() {
           className="object-cover h-[1000]"
         />
         <div className="absolute text-white/80 items-center justify-center text-center">
-          <div className="pt-16 flex flex-col justify-center items-center tracking-tight">
+          <div className="pt-52 flex flex-col justify-center items-center tracking-tight">
             <h1 className="text-3xl">
               Be First To Discover Our Latest Treasures
             </h1>
